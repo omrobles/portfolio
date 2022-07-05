@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="row">
       <Routes>
-        <Route path="/page" element={<HashPage />} />
+        <Route path="/" element={<HashPage />} />
       </Routes>
       <Home />
     </div>

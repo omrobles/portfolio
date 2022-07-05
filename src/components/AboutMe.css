@@ -1,0 +1,42 @@
+.Slide{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/212618660.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.H3{
+    width: 65%;
+    margin: 18% auto;
+    font-size: 250%;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.Slide span{
+    font-weight: 600;
+    color: #0abde3;
+    font-size: 130%;
+}
+
+.Logos{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 18% auto;
+}
+
+.Logos h3{
+    width: 100%;
+    font-size: 250%;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.Logos img{
+ margin: 5px;
+ height: 80px;
+}

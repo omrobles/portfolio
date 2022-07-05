@@ -6,7 +6,7 @@
     color: #fff;
 }
 
-.NavContainer div{
+.PersonalInfo{
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -19,4 +19,51 @@
     height: auto;
     border-radius: 50%;
     box-shadow: 0px 0px 139px 31px rgba(0,0,0,0.6);
+}
+
+.NavContainer h3,
+.NavContainer h5{
+    margin: 8px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.sectionUl{
+    list-style: none;
+    margin: 20px 10px;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sectionUl li{
+    min-height: 30px;
+    margin: 5px auto;
+    border: 2px solid #fff;
+    border-radius: 7px;
+}
+
+.sectionUl li:hover{
+    background-color: #fff;
+    color: #555;
+}
+
+.sectionUl a{
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contactInfo{
+    width: 30%;
+    margin: 5px auto;
+    display: flex;
+    flex-flow: row;
+    color: #fff;
+}
+
+.contactInfo a{
+    color: inherit;
+    font-size: 130%;
+    margin: 0 auto;
 }
