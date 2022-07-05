@@ -1,0 +1,10 @@
+.InfoContainer{
+    height: 100vh;
+}
+
+.sectionInfo{
+    height: 70vh;
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+
