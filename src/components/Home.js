@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
 import picture from "../media/picture.jpg";
 
 const Home = () => {
@@ -16,11 +15,12 @@ const Home = () => {
         <li>
           <HashLink to="/#about-me">About Me</HashLink>
         </li>
-        <li>
-          <HashLink to="/#my-develops">My Develops</HashLink>
-        </li>
+
         <li>
           <HashLink to="/#skills">Skills</HashLink>
+        </li>
+        <li>
+          <HashLink to="/#my-develops">My Develops</HashLink>
         </li>
         <li>
           <HashLink to="/#contact">Contact</HashLink>

@@ -27,12 +27,12 @@ const AboutMe = () => {
           <div class="carousel-item Slide">
             <div className="Logos">
               <h3>Experience with:</h3>
-              <img src={htmlLogo} />
-              <img src={cssLogo} />
-              <img src={jsLogo} />
-              <img src={reactLogo} />
-              <img src={nodeLogo} />
-              <img src={mongodbLogo} />
+              <img src={htmlLogo} alt="HTML5" />
+              <img src={cssLogo} alt="CSS3" />
+              <img src={jsLogo} alt="Javascript" />
+              <img src={reactLogo} alt="React" />
+              <img src={nodeLogo} alt="NodeJS" />
+              <img src={mongodbLogo} alt="MongoDB" />
             </div>
           </div>
         </div>

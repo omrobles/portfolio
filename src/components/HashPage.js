@@ -1,20 +1,18 @@
 import React from "react";
 import "./HashPage.css";
-import { HashLink, NavHashLink } from "react-router-hash-link";
 
 import AboutMe from "./AboutMe";
+import Skills from "./Skills";
 
 const HashPage = () => {
   return (
     <div className="InfoContainer overflow-auto col-9 p-0">
       <AboutMe />
-      <section id="my-develops" className="sectionInfo">
+      <Skills />
+      <section id="my-develops" className="m-0 p-5 sectionInfo">
         <h1>hola desde My devs</h1>
       </section>
-      <section id="skills" className="sectionInfo">
-        <h1>hola desde Academic</h1>
-      </section>
-      <section id="contact" className="sectionInfo">
+      <section id="contact" className="m-0 p-5 sectionInfo">
         <h1>hola desde Contact</h1>
       </section>
     </div>

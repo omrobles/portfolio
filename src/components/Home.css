@@ -46,6 +46,7 @@
 .sectionUl li:hover{
     background-color: #fff;
     color: #555;
+    font-weight: 800;
 }
 
 .sectionUl a{

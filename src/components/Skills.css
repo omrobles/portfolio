@@ -1,0 +1,49 @@
+#skills{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#skills h2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 800;
+}
+
+#skillsBars p{
+    margin: 0;
+    font-weight: 600;
+}
+
+#htmlBar{
+    width: 85%;
+}
+
+#cssBar{
+    width: 75%;
+}
+
+#jsBar{
+    width: 90%;
+}
+
+#reactBar{
+    width: 65%;
+}
+
+#nodeBar{
+    width: 65%;
+}
+
+#mongoBar{
+    width: 50%;
+}
+
+#skillsInfo{
+    text-align: justify;
+    font-size: 110%;
+}
