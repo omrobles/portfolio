@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+.NavContainer h3{
+    font-weight: 600;
+}
+
 .sectionUl{
     list-style: none;
     margin: 20px 10px;
@@ -39,14 +43,15 @@
 .sectionUl li{
     min-height: 30px;
     margin: 5px auto;
-    border: 2px solid #fff;
-    border-radius: 7px;
+    
 }
 
 .sectionUl li:hover{
     background-color: #fff;
     color: #555;
     font-weight: 800;
+    border: 2px solid #fff;
+    border-radius: 7px;
 }
 
 .sectionUl a{

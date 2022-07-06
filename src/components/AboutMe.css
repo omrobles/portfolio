@@ -1,5 +1,5 @@
 .Slide{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../media/212618660.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../media/pexels-luis-gomes-546819.jpg);
     height: 80vh;
     width: 100%;
     background-size: cover;
@@ -24,10 +24,10 @@
 .Logos{
     display: flex;
     flex-direction: row;
-    flex-flow: row;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 18% auto;
+    align-content: space-between;
+    width: 50%;
+    margin: 15% auto;
 }
 
 .Logos h3{
@@ -37,7 +37,8 @@
     text-align: justify;
 }
 
-.Logos img{
- margin: 5px;
- height: 80px;
+.Logos svg{
+ margin-right: 12px;
+ height: 90px;
+ color: #0abde3;
 }

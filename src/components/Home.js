@@ -13,17 +13,25 @@ const Home = () => {
       </div>
       <ul className="sectionUl">
         <li>
-          <HashLink to="/#about-me">About Me</HashLink>
+          <HashLink smooth to="/#about-me">
+            About Me
+          </HashLink>
         </li>
 
         <li>
-          <HashLink to="/#skills">Skills</HashLink>
+          <HashLink smooth to="/#skills">
+            Skills
+          </HashLink>
         </li>
         <li>
-          <HashLink to="/#my-develops">My Develops</HashLink>
+          <HashLink smooth to="/#my-develops">
+            My Develops
+          </HashLink>
         </li>
         <li>
-          <HashLink to="/#contact">Contact</HashLink>
+          <HashLink smooth to="/#contact">
+            Contact
+          </HashLink>
         </li>
       </ul>
       <div className="contactInfo">

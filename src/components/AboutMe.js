@@ -1,16 +1,21 @@
 import React from "react";
 import "./AboutMe.css";
-import htmlLogo from "../media/HTML5.png";
-import cssLogo from "../media/CSS3.png";
-import jsLogo from "../media/JavaScript-logo.png";
-import reactLogo from "../media/React.png";
-import nodeLogo from "../media/node.png";
-import mongodbLogo from "../media/mongodb.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faJsSquare,
+  faReact,
+  faNode,
+  faGitAlt,
+  faGithub,
+  faBootstrap,
+} from "@fortawesome/free-brands-svg-icons";
 
 const AboutMe = () => {
   return (
     <section id="about-me" className="m-0 p-5">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselAbout" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active Slide">
             <h3 className="H3">
@@ -27,19 +32,21 @@ const AboutMe = () => {
           <div class="carousel-item Slide">
             <div className="Logos">
               <h3>Experience with:</h3>
-              <img src={htmlLogo} alt="HTML5" />
-              <img src={cssLogo} alt="CSS3" />
-              <img src={jsLogo} alt="Javascript" />
-              <img src={reactLogo} alt="React" />
-              <img src={nodeLogo} alt="NodeJS" />
-              <img src={mongodbLogo} alt="MongoDB" />
+              <FontAwesomeIcon icon={faHtml5} />
+              <FontAwesomeIcon icon={faCss3Alt} />
+              <FontAwesomeIcon icon={faJsSquare} />
+              <FontAwesomeIcon icon={faGitAlt} />
+              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faReact} />
+              <FontAwesomeIcon icon={faNode} />
+              <FontAwesomeIcon icon={faBootstrap} />
             </div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselAbout"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -48,7 +55,7 @@ const AboutMe = () => {
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselAbout"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
