@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import MyDevs from "./MyDevs";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const HashPage = () => {
   return (
@@ -13,6 +14,7 @@ const HashPage = () => {
       <Skills />
       <MyDevs />
       <Contact />
+      <Footer />
     </div>
   );
 };
