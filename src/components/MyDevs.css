@@ -15,17 +15,50 @@
 }
 
 .projectCard {
-    border: 2px solid #555;
-    border-radius: 15px;
     height: 70vh;
+    background-color: rgb(179, 179, 179);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.imgProj{
+    width: 50%; 
 }
 
 #GadpetsImg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../media/cover-gadpets.JPG);
-    height: auto;
-    width: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../media/cover-gadpets.JPG);
     background-size: cover;
     background-position: center;
+}
+
+#TaskitImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/task-it.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#PokeImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/Pokemonguide.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#zenImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/Zenhotel.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#cochinitoImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/Cochinito.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.infoProj h3,
+.infoProj h5{
+    font-weight: 700;
+    margin: 0;
 }
 
 .languages img {

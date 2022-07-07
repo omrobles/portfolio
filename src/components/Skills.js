@@ -45,6 +45,11 @@ const Skills = () => {
         </div>
       </div>
       <h2>Soft Skills</h2>
+      <div id="softSkillsLogos" class="col-6 p-0">
+        <div id="softLogos">
+          <img src={collaboration} />
+        </div>
+      </div>
       <div id="softSkillsInfo" class="col-6 p-2 skillsInfo">
         <p>
           Through the years in my professional career I have developed skills in{" "}
@@ -54,11 +59,6 @@ const Skills = () => {
           <strong>learn and teach</strong> from other persons getting{" "}
           <strong>continuous improvement</strong> in my professional and personal development.
         </p>
-      </div>
-      <div id="softSkillsLogos" class="col-6 p-0">
-        <div id="softLogos">
-          <img src={collaboration} />
-        </div>
       </div>
     </section>
   );

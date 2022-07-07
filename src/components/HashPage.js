@@ -4,6 +4,7 @@ import "./HashPage.css";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import MyDevs from "./MyDevs";
+import Contact from "./Contact";
 
 const HashPage = () => {
   return (
@@ -11,9 +12,7 @@ const HashPage = () => {
       <AboutMe />
       <Skills />
       <MyDevs />
-      <section id="contact" className="m-0 p-5 sectionInfo">
-        <h1>hola desde Contact</h1>
-      </section>
+      <Contact />
     </div>
   );
 };
